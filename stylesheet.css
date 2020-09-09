@@ -1,0 +1,234 @@
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  text-align: center;
+  position: relative;
+}
+h1,h2,h3,h4,h5,h6 { 
+  font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
+}  
+a {
+  color: #000000;
+}
+/*----------------------------------------------------*/
+.whiteNav {
+  color: rgb(121, 119, 9);
+}
+.navbar-brand {
+  color: #000;
+}
+.navbar {
+  background-color: rgb(2, 252, 77);
+  font-weight: bold;
+}
+/*----------------------------------------------------*/
+.active {
+  font-weight: bold;
+}
+.navbar-brandActive{
+  color: rgb(71, 131, 221);
+  font-size: 1.3rem;
+}
+@media only screen and (max-width: 768px) {
+  .navbar-brand {
+    font-size: 0.8rem;
+  }   }
+  /*----------------------------------------------------*/
+.header{
+  padding:3%;
+}
+
+  .invert {
+  background: rgb(71, 131, 221);
+  color: #fff;
+}
+/* ======================================================================================================================== */
+.carouselExampleCaptions #img{
+  height:70vh;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  background-blend-mode:overlay;
+  z-index: -10;
+}
+.carousel-inner h1{
+ color:rgb(255, 255, 255)
+}
+.carousel-inner h3{
+color:rgb(255, 255, 255)
+}
+/* ========================================================================================================================== */
+.about h1{
+  font-size:50px;
+}
+
+.about {
+  padding: 3%;
+  animation:bgcolor infinite 25s;
+}
+
+@keyframes bgcolor{
+  0%
+  { background:#e74c3c; }
+  30%
+  { background:#2980e9; }
+  60%
+  { background:#8e44ad;}
+  100%
+  { background:#34495e;}
+}
+
+@media only screen and (max-width: 1200px) {
+  .about {
+    padding: 7% 10%;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .about {
+    padding: 7% 5%;
+  }
+}
+/* ============================================================================================================================= */
+.whycamp{
+  background: url("./images/IMG_3075.jpeg") no-repeat center center;
+  background-size: cover;
+  background-blend-mode: overlay;
+  background-color:#443a3a;
+  justify-content: center;
+  align-items: center;
+  padding:5% 10% 5% 10%;
+ } 
+ .whycamp h2{
+  font-size:40px;
+color:#ffffff;
+}
+ .whycamp p{
+   font-size:20px;
+   color:#ffffff;
+ }
+
+.lifeBe4 {
+  text-align: center;
+  padding: 6% 0;
+}
+.lifeBe4 i.fa {
+  margin-bottom:10%;
+}
+.lifeBe4 .row h4 {
+  margin: 1rem;
+}
+.lifeBe4 p {
+  color: #00000099;
+}
+/* ========================================================================================================================= */
+.goal{
+ padding:3%;
+ background-color:rgb(14, 250, 45);
+}
+
+.hobby{
+  background-color:rgb(184, 35, 204);
+  padding:3%;
+}
+.hobby p{
+ color:rgb(255, 255, 255);
+ font-size:20px;
+}
+.hobby h2{
+  color:rgb(255, 255, 255);
+}
+
+.picture {
+  background: #333;
+  padding: 2% 0 2% 0;
+}
+
+.picture .row > div{
+  padding: 0.3%;
+  position: relative;
+}
+
+.picture .hint {
+  opacity: 0;
+  transition: opacity 1;
+  background: #f05f40e6;
+  position: absolute;
+  display: flex;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  color: #ffffff99;
+}
+
+.picture .hint:hover {
+  opacity: 1;
+}
+
+.picture .hint span.word {
+  display: block;
+  font-size: 1.5rem;
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.picture h2 {
+  margin: 1.5rem 0;
+}
+/* ===============================================================callme================================================================== */
+.hobby h2{
+  font-weight: bold;
+  font-size:40px;
+}
+.hobby p{
+  font-size:18px;
+}
+
+.call {
+  background: url("./images/IMG_481.jpeg") no-repeat center center;
+  background-size: cover;
+  background-blend-mode: overlay;
+  background-color:#382c2c;
+  justify-content: center;
+  align-items: center;
+  padding: 4% 5%;
+}
+.call p {
+  font-size:30px;
+  color:rgb(255, 255, 255);
+}
+.call h2{
+  font-size:40px;
+  color:rgb(255, 255, 255);
+}
+
+#go{
+  padding: 7px 15px 7px 15px;
+  border-radius: 100px;
+  font-size: 3vh;
+  font-weight: 800;
+  margin-top: 5vh;
+}
+.form p{
+  color:rgb(255, 255, 255);
+}
+@media only screen and (max-width: 1200px) {
+  .call {
+    padding: 7% 10%;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .call {
+    padding: 7% 5%;
+  }
+}
+/* ==================================================== NEW ================================*/
+.footer {
+  padding: 3%;
+  background-color:rgb(128, 101, 177);
+  color:rgb(0, 0, 0);
+}
